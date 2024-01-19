@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.watch-store-homepage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(106deg, #f4a764 -2.93%, #ffdec2 72.14%);
+}
+
+.product-card {
+  width: 80%;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.header {
+  height: 8vh;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 100%;
+  height: auto;
+}
+
+.header-nav-links {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.header-nav-link {
+  color: #1c1415;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sign-up-button {
+  display: inline-flex;
+  padding: 12px 38px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #1c1415;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  cursor: pointer;
+}
+
+.watch-slider-content-section {
+  display: flex;
+  align-self: center;
+}
+
+.contentSection {
+  width: 50%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.watch-slide-section {
+  width: 50%;
+  flex-shrink: 0;
+}
+
+.splide__slide {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: none;
+}
+
+#watch-title {
+  color: #fff;
+  font-family: "Sofia Sans";
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 137%; /* 104.12px */
+  letter-spacing: -0.76px;
+}
+
+#watch-title-info {
+  color: #fff;
+  font-family: "Sofia Sans";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 115.5%; /* 60.06px */
+  letter-spacing: -0.52px;
+}
+
+#watch-title-highlight {
+  color: #1c1415;
+  font-family: "Sofia Sans";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 115.5%;
+  letter-spacing: -0.52px;
+}
+
+.watch-title-description {
+  color: rgba(28, 20, 21, 0.8);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 190%;
+  width: 70%;
+  /* height: 200px; */
+  margin-bottom: 20px;
+  margin-top: 50px;
+  /* margin-bottom: 20px; */
+}
+
+.watch-price {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 137%; /* 95.9px */
+  letter-spacing: -0.7px;
+  margin-bottom: 40px;
+}
+
+#socialImg2 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header-nav-links {
+    width: 100%;
+    justify-content: flex-end;
+    column-gap: 5px;
+    margin-left: 20px;
+  }
+
+  .header-logo {
+    width: 90px;
+    height: auto;
+  }
+
+  .product-card {
+    width: 95%;
+    padding: 20px 0;
+  }
+
+  .sign-up-button {
+    display: none;
+  }
+
+  .header-nav-link {
+    font-size: 12px;
+    display: none;
+  }
+
+  .watch-slider-content-section {
+    flex-direction: column;
+  }
+  #watch-title {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+  .contentSection {
+    width: 100%;
+  }
+  #watch-title-info {
+    font-size: 20px;
+  }
+  #watch-title-highlight {
+    font-size: 20px;
+  }
+
+  .watch-title-description {
+    font-size: 14px;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .watch-price {
+    font-size: 22px;
+  }
+
+  .social-img {
+    height: 40px;
+  }
+
+  .watch-slide-section {
+    width: 90%;
+    align-self: center;
+  }
+
+  .splide__slide {
+    height: 30vh;
+  }
+
+  #socialImg1 {
+    display: none;
+  }
+
+  #socialImg2 {
+    display: block;
+    height: 25px;
+    align-self: flex-start;
+    margin-top: 30px;
+  }
+
+  .icon {
+    display: block;
+  }
+}
